@@ -1,0 +1,128 @@
+:root {
+  --bg: #050506;
+  --bg-2: #0a0a0c;
+  --surface: #0b0b0d;
+  --surface-2: #121214;
+  --surface-3: #1a1a1d;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.18);
+  --hairline: rgba(255, 255, 255, 0.1);
+
+  --text: #f4f4f5;
+  --text-muted: #9b9ba1;
+  --text-dim: #66666d;
+  --text-faint: #46464c;
+
+  --tint-0: rgba(255, 255, 255, 0);
+  --tint-1: rgba(255, 255, 255, 0.03);
+  --tint-2: rgba(255, 255, 255, 0.065);
+  --tint-3: rgba(255, 255, 255, 0.14);
+  --edge: rgba(255, 255, 255, 0.06);
+  --lift: 0 14px 34px -24px rgba(0, 0, 0, 0.95);
+
+  --accent: #ffffff;
+  --accent-soft: rgba(255, 255, 255, 0.07);
+  --accent-line: rgba(255, 255, 255, 0.22);
+  --accent-glow: rgba(255, 255, 255, 0.1);
+  --on-accent: #050506;
+  --warn: #c9a96a;
+  --warn-soft: rgba(201, 169, 106, 0.1);
+  --danger: #d97278;
+  --danger-soft: rgba(217, 114, 120, 0.1);
+  --info: #8fa4c4;
+  --info-soft: rgba(143, 164, 196, 0.1);
+
+  --font-ui: 'Satoshi', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Clash Display', 'Satoshi', system-ui, sans-serif;
+  --font-italic: 'Satoshi', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+
+  --r-sm: 3px;
+  --r-md: 6px;
+  --r-lg: 10px;
+  --r-pill: 999px;
+  --shadow: 0 30px 70px -40px rgba(0, 0, 0, 1);
+
+  --sidebar-w: 236px;
+  --topbar-h: 54px;
+  --statusbar-h: 28px;
+  --gutter: clamp(20px, 5vw, 64px);
+  --rail-w: 176px;
+
+  --chart-background: transparent;
+  --chart-foreground: var(--text);
+  --chart-foreground-muted: var(--text-dim);
+  --chart-label: var(--text-faint);
+  --chart-line-primary: var(--text);
+  --chart-line-secondary: var(--text-dim);
+  --chart-crosshair: var(--border-strong);
+  --chart-grid: var(--hairline);
+  --chart-indicator-color: var(--text);
+  --chart-indicator-secondary-color: var(--text-dim);
+  --chart-marker-background: var(--bg);
+  --chart-marker-border: var(--border-strong);
+  --chart-marker-foreground: var(--text);
+  --chart-marker-badge-background: var(--text);
+  --chart-marker-badge-foreground: var(--bg);
+  --chart-segment-background: var(--tint-1);
+  --chart-segment-line: var(--hairline);
+  --chart-brush-border: var(--border);
+  --chart-scale-pattern-color: var(--tint-3);
+  --chart-scale-01: var(--tint-1);
+  --chart-scale-02: var(--tint-2);
+  --chart-scale-03: rgba(255, 255, 255, 0.1);
+  --chart-scale-04: var(--tint-3);
+  --chart-scale-05: rgba(255, 255, 255, 0.2);
+  --chart-tooltip-background: var(--surface-2);
+  --chart-tooltip-foreground: var(--text);
+  --chart-tooltip-muted: var(--text-dim);
+  --chart-1: var(--text);
+  --chart-2: var(--text-muted);
+  --chart-3: var(--text-dim);
+  --chart-4: var(--info);
+  --chart-5: var(--warn);
+
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #f5f5f6;
+  --bg-2: #ededee;
+  --surface: #ffffff;
+  --surface-2: #f2f2f3;
+  --surface-3: #e6e6e8;
+  --border: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.22);
+  --hairline: rgba(0, 0, 0, 0.12);
+
+  --text: #0d0d0f;
+  --text-muted: #5c5c63;
+  --text-dim: #85858d;
+  --text-faint: #a8a8b0;
+
+  --tint-0: rgba(0, 0, 0, 0);
+  --tint-1: rgba(0, 0, 0, 0.025);
+  --tint-2: rgba(0, 0, 0, 0.055);
+  --tint-3: rgba(0, 0, 0, 0.13);
+  --edge: rgba(255, 255, 255, 0.7);
+  --lift: 0 14px 30px -22px rgba(0, 0, 0, 0.35);
+
+  --accent: #0d0d0f;
+  --accent-soft: rgba(0, 0, 0, 0.05);
+  --accent-line: rgba(0, 0, 0, 0.22);
+  --accent-glow: rgba(0, 0, 0, 0.08);
+  --on-accent: #ffffff;
+  --warn: #8a6c25;
+  --warn-soft: rgba(138, 108, 37, 0.1);
+  --danger: #b03a40;
+  --danger-soft: rgba(176, 58, 64, 0.1);
+  --info: #41597f;
+  --info-soft: rgba(65, 89, 127, 0.1);
+
+  --shadow: 0 20px 50px -34px rgba(0, 0, 0, 0.5);
+
+  --chart-scale-03: rgba(0, 0, 0, 0.09);
+  --chart-scale-05: rgba(0, 0, 0, 0.2);
+
+  color-scheme: light;
+}

@@ -1,0 +1,16 @@
+﻿node_modules
+dist
+dist-ssr
+.env
+.env.local
+*.local
+.vite
+__pycache__/
+*.py[cod]
+.DS_Store
+
+.dev.vars
+.wrangler
+.vercel
+
+
